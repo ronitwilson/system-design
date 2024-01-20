@@ -14,3 +14,6 @@
  ### Conceptual Integrity
  * Creating consistent software -> even if multiple people work on the software, it would look like it was made from one mind
  * Naming convention like snail_case, Camel case etc
+ * Have practices like PR reviews
+ * Having interfaces for example help have integrity
+ * Having desing practises, Having a clear architecture
