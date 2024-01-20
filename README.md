@@ -17,3 +17,14 @@
  * Have practices like PR reviews
  * Having interfaces for example help have integrity
  * Having desing practises, Having a clear architecture
+
+ ### Generaliztion Principles
+ #### Inheritance issues
+ * Be carefull of inherting too much..
+ * Follow + Liskov Substitution Principle:- subclass can replace a superclass if and only if, the subclass does not change the functionality of superclass
+ * If inheritance does not suit the needs decomposition is an alternative (ex a smartphone si made by seperate phone and camer classes)
+ * **overall goal** - reuseable flexible maintainable
+  
+  ### Modelling Behaviour
+  #### Sequence diagrams
+ * ![image](https://github.com/ronitwilson/system-design/assets/9934360/4ca9d520-d874-4de8-85d2-e8a29c26cd3c)
