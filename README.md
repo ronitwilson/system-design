@@ -37,3 +37,14 @@
  * The exit activity
  * It can be repesented like this (example of entry/do/exit state of vending machine)
   * ![image](https://github.com/ronitwilson/system-design/assets/9934360/094da18b-c1ce-4ddb-8a84-ca66a8c1f413)
+### Model checking
+ * We can use testing to make sure the software is fine as intended
+ * How can reason about software
+  * We can look at a program as a mathematical artifact
+  * We can break down the complex system into smaller state
+ * **In model checking we try to make sure system works in small cases (small world asumption)**
+ * Not all software peices make sense to do model checking
+ * The phases of model checking
+  *  Modelling phase
+  *  Running phase
+  *  Analysis phase
