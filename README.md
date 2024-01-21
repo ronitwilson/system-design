@@ -25,6 +25,15 @@
  * If inheritance does not suit the needs decomposition is an alternative (ex a smartphone si made by seperate phone and camer classes)
  * **overall goal** - reuseable flexible maintainable
   
-  ### Modelling Behaviour
+ ### Modelling Behaviour
   #### Sequence diagrams
  * ![image](https://github.com/ronitwilson/system-design/assets/9934360/4ca9d520-d874-4de8-85d2-e8a29c26cd3c)
+
+## 21-Jan-2024
+### Modelling Behaviour
+#### States
+ * There is sometimes the entry activity
+ * The do activity
+ * The exit activity
+ * It can be repesented like this (example of entry/do/exit state of vending machine)
+  * ![image](https://github.com/ronitwilson/system-design/assets/9934360/094da18b-c1ce-4ddb-8a84-ca66a8c1f413)
