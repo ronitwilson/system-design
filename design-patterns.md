@@ -1,4 +1,4 @@
-#29-01-2024
+# 29-01-2024
 ## Design patterns overview
 * There are about 23 famous design patterns
 ### Gang of four
@@ -16,17 +16,27 @@
  *  ![image](https://github.com/ronitwilson/system-design/assets/9934360/ce79f5a1-d33f-412a-8378-4872b00dfc6c)
  *  Note there is KnifeFactory which creates the necessary knife obj
 * Acutal factory Mehtod pattern
- * ![image](https://github.com/ronitwilson/system-design/assets/9934360/366b2ec7-f488-4988-a7bf-5b029db57bba)
- * ![image](https://github.com/ronitwilson/system-design/assets/9934360/5b570343-16f1-40a6-926d-80d712681659)
+ *  ![image](https://github.com/ronitwilson/system-design/assets/9934360/366b2ec7-f488-4988-a7bf-5b029db57bba)
+ *  ![image](https://github.com/ronitwilson/system-design/assets/9934360/5b570343-16f1-40a6-926d-80d712681659)
 
 ## 8-02-2024
 ### Facade Pattern
 * provide simplified interface for client to interact with a subsystem
 * a wrapper class which encapsulates a subsystem in order to hide the subsystem complexity
 *  ![image](https://github.com/ronitwilson/system-design/assets/9934360/a91c2e7f-7e06-4f47-a57c-6b7f8f123880)
-* Steps
+* **Steps**
  *  Design the interface
  *  Implement the interface with one or more classes
  *  Create the facade class & wrap the class that implements the interface
  *  use facade class to access the subsystem
+
+## 8-02-2024
+### Adapter Pattern
+* ![image](https://github.com/ronitwilson/system-design/assets/9934360/39b7a1a6-3a27-4312-ad70-6b6ba0164a7c)
+* Steps
+ * Design the target interface
+ * Implement the target interface with the adapter class
+ * send request from cline to adapter using the target interface
+* ![image](https://github.com/ronitwilson/system-design/assets/9934360/282a20e3-dc93-416a-beb9-098455134cdb)
+
 
