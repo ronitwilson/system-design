@@ -9,3 +9,14 @@
     * Generalization
     * Association, Aggregation, Compsition, inheritance, interface
 * Behavioural patterns -> how they work together to obtain a goal
+
+## 8-02-2024
+### Factory Method Pattern
+* Option of using a **factory object** patter (not the actual fatory method)
+ *  ![image](https://github.com/ronitwilson/system-design/assets/9934360/ce79f5a1-d33f-412a-8378-4872b00dfc6c)
+ *  Note there is KnifeFactory which creates the necessary knife obj
+* Acutal factory Mehtod pattern
+ * ![image](https://github.com/ronitwilson/system-design/assets/9934360/366b2ec7-f488-4988-a7bf-5b029db57bba)
+ * ![image](https://github.com/ronitwilson/system-design/assets/9934360/5b570343-16f1-40a6-926d-80d712681659)
+
+
