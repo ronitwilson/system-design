@@ -19,4 +19,13 @@
  * ![image](https://github.com/ronitwilson/system-design/assets/9934360/366b2ec7-f488-4988-a7bf-5b029db57bba)
  * ![image](https://github.com/ronitwilson/system-design/assets/9934360/5b570343-16f1-40a6-926d-80d712681659)
 
+### Facade Pattern
+* provide simplified interface for client to interact with a subsystem
+* a wrapper class which encapsulates a subsystem in order to hide the subsystem complexity
+* Steps
+ *  Design the interface
+ *  Implement the interface with one or more classes
+ *  Create the facade class & wrap the class that implements the interface
+ *  use facade class to access the subsystem
+*  ![image](https://github.com/ronitwilson/system-design/assets/9934360/a91c2e7f-7e06-4f47-a57c-6b7f8f123880)
 
