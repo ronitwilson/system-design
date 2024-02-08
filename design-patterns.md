@@ -11,7 +11,13 @@
 * Behavioural patterns -> how they work together to obtain a goal
 
 ## 8-02-2024
-### Factory Method Pattern
+### Singleton Pattern (Creational)
+* only one object will be alive..
+* Constructor is private
+* getInstance object
+
+## 8-02-2024
+### Factory Method Pattern (Creational)
 * Option of using a **factory object** patter (not the actual fatory method)
  *  ![image](https://github.com/ronitwilson/system-design/assets/9934360/ce79f5a1-d33f-412a-8378-4872b00dfc6c)
  *  Note there is KnifeFactory which creates the necessary knife obj
@@ -20,7 +26,7 @@
  *  ![image](https://github.com/ronitwilson/system-design/assets/9934360/5b570343-16f1-40a6-926d-80d712681659)
 
 ## 8-02-2024
-### Facade Pattern
+### Facade Pattern (Structural)
 * provide simplified interface for client to interact with a subsystem
 * a wrapper class which encapsulates a subsystem in order to hide the subsystem complexity
 *  ![image](https://github.com/ronitwilson/system-design/assets/9934360/a91c2e7f-7e06-4f47-a57c-6b7f8f123880)
@@ -31,7 +37,7 @@
  *  use facade class to access the subsystem
 
 ## 8-02-2024
-### Adapter Pattern
+### Adapter Pattern (Structural)
 * ![image](https://github.com/ronitwilson/system-design/assets/9934360/39b7a1a6-3a27-4312-ad70-6b6ba0164a7c)
 * **Steps**
  * Design the target interface
@@ -40,7 +46,7 @@
 * ![image](https://github.com/ronitwilson/system-design/assets/9934360/282a20e3-dc93-416a-beb9-098455134cdb)
 
 ## 8-02-2024
-### Composite Pattern
+### Composite Pattern (Structural)
 * To compose nested structures of objects.
 * To deal with classes for these objects uniformly.
 * ![image](https://github.com/ronitwilson/system-design/assets/9934360/b13c128c-ef05-4eb4-908b-12f07affdc88)
