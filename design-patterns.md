@@ -33,10 +33,22 @@
 ## 8-02-2024
 ### Adapter Pattern
 * ![image](https://github.com/ronitwilson/system-design/assets/9934360/39b7a1a6-3a27-4312-ad70-6b6ba0164a7c)
-* Steps
+* **Steps**
  * Design the target interface
  * Implement the target interface with the adapter class
  * send request from cline to adapter using the target interface
 * ![image](https://github.com/ronitwilson/system-design/assets/9934360/282a20e3-dc93-416a-beb9-098455134cdb)
+
+## 8-02-2024
+### Composite Pattern
+* To compose nested structures of objects.
+* To deal with classes for these objects uniformly.
+* ![image](https://github.com/ronitwilson/system-design/assets/9934360/b13c128c-ef05-4eb4-908b-12f07affdc88)
+
+* An abstract class can be used instead of an interface.
+* Notice how the composite class holds a array of composite objects.
+* ![image](https://github.com/ronitwilson/system-design/assets/9934360/ba048bbe-9d98-487d-9039-ea8a98467d03)
+
+
 
 
