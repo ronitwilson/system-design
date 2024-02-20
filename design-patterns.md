@@ -58,3 +58,21 @@
 
 ## 17-02-2024
 ### Decorator Pattern (Structural)
+* to have additional behaviors or responsibilites added to an object
+* ![image](https://github.com/ronitwilson/system-design/assets/9934360/b78f5ba4-0fcf-402a-9f87-1e43bae559c4)
+* ![image](https://github.com/ronitwilson/system-design/assets/9934360/038582c2-b27b-428d-94d3-660a87923229)
+* **Steps**
+ * Design the component interface
+ * ![image](https://github.com/ronitwilson/system-design/assets/9934360/94a6f544-fffa-40e5-bfed-f50bb965e32e)
+ * Implement the interface with base concrete component class
+ * ![image](https://github.com/ronitwilson/system-design/assets/9934360/13c92dd3-ea40-4306-94f8-395499c6631d)
+ * Implement the interface with abstract decorator class
+ * ![image](https://github.com/ronitwilson/system-design/assets/9934360/9e71fd4b-e2ed-4779-9d9a-d70164e838bc)
+ * inherit from decorator and implement the compnenet instrface with concrete decorator class
+ * ![image](https://github.com/ronitwilson/system-design/assets/9934360/d1a01c61-4f62-4cb7-a829-8f7cfa2a7ea2)
+
+ * final intergrated main
+ * ![image](https://github.com/ronitwilson/system-design/assets/9934360/998e91a8-9f11-4f58-9376-549f5abae032)
+
+
+
