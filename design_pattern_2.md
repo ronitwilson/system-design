@@ -1,4 +1,5 @@
 # 21-02-2024
+## Behavioural Pattern
 ## Template Method Pattern
 * Best used when we generalize 2 classes into a superclass
 * so that some implementation specifics can be deffered to subclasses
@@ -14,3 +15,6 @@
   * The File wathcer handler -> uploader handler -> archive manager handler
 * ![image](https://github.com/ronitwilson/system-design/assets/9934360/1dc9509b-d921-47a9-bf6b-87fb3bdc9e0e)
 
+## State Machine Pattern
+* Remember there are states and triggers
+* ![image](https://github.com/ronitwilson/system-design/assets/9934360/3ec23feb-a527-4b58-9890-f2fd86745c9a)
