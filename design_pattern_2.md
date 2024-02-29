@@ -18,3 +18,12 @@
 ## State Machine Pattern
 * Remember there are states and triggers
 * ![image](https://github.com/ronitwilson/system-design/assets/9934360/3ec23feb-a527-4b58-9890-f2fd86745c9a)
+
+## Command Pattern
+* The command pattern creates a command object  betwen sender and reciver
+* The invoker is a object that invokes the command objects
+* Uses
+ * Store and schedule different requests
+ * Allows commands to be undone and redone
+ * Allows commands to ve seperated from the UI
+![image](https://github.com/ronitwilson/system-design/assets/9934360/a536f873-7502-47d9-8277-139d71eda64f)
