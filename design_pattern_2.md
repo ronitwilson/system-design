@@ -41,4 +41,10 @@
 * Uses the controller to modify the model
 ![image](https://github.com/ronitwilson/system-design/assets/9934360/559dd2ed-bf56-49a7-a934-53e67680500d)
 
-![image](https://github.com/ronitwilson/system-design/assets/9934360/96304766-02d3-45f4-a651-284b94b0d31a)
+## Mediator design pattern
+*  Mediator pattern, you will add an object that will talk to all of these other objects and coordinate their activities.
+*  The Mediator allows for loose coupling between colleagues. Since each of these colleagues only communicates with the mediator, they can be reused more easily.
+*  On the other hand, the mediator can quickly become very large.
+![image](https://github.com/ronitwilson/system-design/assets/9934360/3404356e-8e48-409f-8b4e-a0ec88d2874e)
+![image](https://github.com/ronitwilson/system-design/assets/9934360/ec7a104d-afa1-46da-9834-fc995a52f33b)
+
