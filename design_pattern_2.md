@@ -35,3 +35,10 @@
 ![image](https://github.com/ronitwilson/system-design/assets/9934360/a0dd9033-6ce6-4ada-9a4f-1e8ff86e8c33)
 ![image](https://github.com/ronitwilson/system-design/assets/9934360/2bab37df-c677-49df-85bc-4916e41376d5)
 
+## Model view Controller Pattern
+* Model can be considered like data or state
+* View is the interface
+* Uses the controller to modify the model
+![image](https://github.com/ronitwilson/system-design/assets/9934360/559dd2ed-bf56-49a7-a934-53e67680500d)
+
+![image](https://github.com/ronitwilson/system-design/assets/9934360/96304766-02d3-45f4-a651-284b94b0d31a)
