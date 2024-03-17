@@ -33,7 +33,7 @@
 * There is Subject superclass -> keeps list of all observers
 * There is a Observer interface with a method that can be notified
 ![image](https://github.com/ronitwilson/system-design/assets/9934360/a0dd9033-6ce6-4ada-9a4f-1e8ff86e8c33)
-![image](https://github.com/ronitwilson/system-design/assets/9934360/2bab37df-c677-49df-85bc-4916e41376d5)
+
 
 ## Model view Controller Pattern
 * Model can be considered like data or state
