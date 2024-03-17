@@ -27,3 +27,11 @@
  * Allows commands to be undone and redone
  * Allows commands to ve seperated from the UI
 ![image](https://github.com/ronitwilson/system-design/assets/9934360/a536f873-7502-47d9-8277-139d71eda64f)
+
+## Observer Pattern
+* **Observers** rely on the **subject** to inform them of changes to the state of the subject
+* There is Subject superclass -> keeps list of all observers
+* There is a Observer interface with a method that can be notified
+![image](https://github.com/ronitwilson/system-design/assets/9934360/a0dd9033-6ce6-4ada-9a4f-1e8ff86e8c33)
+![image](https://github.com/ronitwilson/system-design/assets/9934360/2bab37df-c677-49df-85bc-4916e41376d5)
+
