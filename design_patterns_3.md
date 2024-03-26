@@ -9,3 +9,4 @@
 ## Open/closed principle
 * Open for extension
 * Closed for modification
+* Although the principle is called “closed”, it does not mean that changes cannot be made to a class during developmen
