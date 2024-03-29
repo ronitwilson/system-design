@@ -10,3 +10,7 @@
 * Open for extension
 * Closed for modification
 * Although the principle is called “closed”, it does not mean that changes cannot be made to a class during developmen
+* 2 ways to be open for extension
+  * inheritence of a superclass
+  * implementation of abstract class
+* option to use final keyword to close classes
