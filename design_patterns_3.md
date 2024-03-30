@@ -17,8 +17,8 @@
 
 # 30-03-204
 ## Dependency inversion principle
-* based on cocepts coupling -> how strongly coupled a module is
-* cohesion -> how clear it is the role of a module
+* based on cocepts **coupling** -> how strongly coupled a module is
+* **cohesion** -> how clear it is the role of a module
 * how easy it is to replace a dependency
  * how easy to replace one class with another
 * High level modules should depend on high level generalizations and not on low level details
@@ -26,3 +26,7 @@
 ![image](https://github.com/ronitwilson/system-design/assets/9934360/ab8a1be8-c344-4459-ac70-47bd54084179)
 * built against interfaces not concrete clases
 
+## Composing Objects Principle
+* another approach to inheritance
+* works similar to the decorator patterns, where a object is worked on by other classes.
+* 
