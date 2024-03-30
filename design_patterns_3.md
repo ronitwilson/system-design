@@ -29,4 +29,11 @@
 ## Composing Objects Principle
 * another approach to inheritance
 * works similar to the decorator patterns, where a object is worked on by other classes.
-* 
+* using interface means all lengthy inherited child class has all the methods and attribs fo the super class
+* will lose the benifit of code reuseablity which comes with inheritance
+![image](https://github.com/ronitwilson/system-design/assets/9934360/6f028e9f-986e-43a7-b0aa-45916bf4761b)
+
+
+## Interface Segregation Principle
+* if there is a single interface which holds all the methods then all clients will have to implement all methods just to make theri dependency compile
+* large interfaces should be split into smaller ones
