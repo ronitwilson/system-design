@@ -24,5 +24,5 @@
 * High level modules should depend on high level generalizations and not on low level details
 ![image](https://github.com/ronitwilson/system-design/assets/9934360/409e02e9-0240-4282-8022-f5e8cb0c4afb)
 ![image](https://github.com/ronitwilson/system-design/assets/9934360/ab8a1be8-c344-4459-ac70-47bd54084179)
-
+* built against interfaces not concrete clases
 
