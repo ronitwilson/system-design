@@ -14,3 +14,11 @@
   * inheritence of a superclass
   * implementation of abstract class
 * option to use final keyword to close classes
+
+# 30-03-204
+## Dependency inversion principle
+* based on cocepts coupling -> how strongly coupled a module is
+* cohesion -> how clear it is the role of a module
+* how easy it is to replace a dependency
+ * how easy to replace one class with another
+* High level modules should depend on high level generalizations and not on low level  
