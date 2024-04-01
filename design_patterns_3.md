@@ -37,3 +37,15 @@
 ## Interface Segregation Principle
 * if there is a single interface which holds all the methods then all clients will have to implement all methods just to make theri dependency compile
 * large interfaces should be split into smaller ones
+
+# 1-apr-2024
+## Principle of least knowledge
+* classes should know and interact with as few classes as possible
+* coupling is reduced
+* Law of demeter
+* 4 rules
+ ![image](https://github.com/ronitwilson/system-design/assets/9934360/0c5fa8be-9b4c-48d0-b765-d5f46a4de68e)
+* **reaching through** of methods needs to be prevented
+ *  chain of methods calls to obj you should not know
+ *  when you receive an object of unknown type
+ 
