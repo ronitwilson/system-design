@@ -56,7 +56,7 @@
 * **Long methods** are more complex and hence not a good patern
 * **Large classes** are not good
  *  Classes should have a explicit purpose
-*** Data class too many** is not good
+* **Data class too many** is not good
  * These are too small classes with only getter and setter
 * **Data clumps** -> groups of data always occuring together but not in the same class
 * **Logn Parameter list** -> have a prameter object
