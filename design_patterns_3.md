@@ -59,7 +59,7 @@
 *** Data class too many** is not good
  * These are too small classes with only getter and setter
 * **Data clumps** -> groups of data always occuring together but not in the same class
-* Logn Parameter list -> have a prameter object
+* **Logn Parameter list** -> have a prameter object
 * **Divergent change** it occurs when you have to change a clas in many different ways for different reasons
  * classes are too large and complex
 * **Shotgun Surgery** occurs when a change needs to be made to one requirement but numerous classes all over the design need to be touched to make that change
