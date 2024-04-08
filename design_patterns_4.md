@@ -26,3 +26,10 @@
 ## Physical view
 * UML deployment diagram
 * describes how elements in logical process and development view are mapped to different nodes
+
+
+# Component Diagrams
+* Can be used earlyon in design 
+* Example of how a pizza in a menu shows the different ingredients but not its details
+* identify the main objects used in the system, relebant libs and how the relationship between the components
+![image](https://github.com/ronitwilson/system-design/assets/9934360/6b647bd1-a35f-4a22-a3a4-a0bc1e2be505)
