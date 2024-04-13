@@ -33,3 +33,13 @@
 * Example of how a pizza in a menu shows the different ingredients but not its details
 * identify the main objects used in the system, relebant libs and how the relationship between the components
 ![image](https://github.com/ronitwilson/system-design/assets/9934360/6b647bd1-a35f-4a22-a3a4-a0bc1e2be505)
+
+# UML Package Diagram
+* Defines the namespace
+* it could include data, classes or even other packages
+* Provides a high-level groupings of the system
+* It has a import and access field
+* Import is public the name is visible for further imports through the level package
+* access is private imports, these are not known outside the user namespace
+  ![image](https://github.com/ronitwilson/system-design/assets/9934360/61776e6a-d2e9-4323-83c3-9aeec749252e)
+
