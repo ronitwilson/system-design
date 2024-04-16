@@ -42,4 +42,6 @@
 * Import is public the name is visible for further imports through the level package
 * access is private imports, these are not known outside the user namespace
   ![image](https://github.com/ronitwilson/system-design/assets/9934360/61776e6a-d2e9-4323-83c3-9aeec749252e)
+* Helps to understand namespaces
 
+# UML Deployment Diagram
