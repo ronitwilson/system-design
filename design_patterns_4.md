@@ -45,3 +45,16 @@
 * Helps to understand namespaces
 
 # UML Deployment Diagram
+* Helps to understand all the files and executables involved and environments where they reside
+* It deals with **artifacts**
+  * they are physical result of deployment proces
+  * eg excutalbe, libs assets
+* 2 types of deployment diagram
+  * specification-level diag
+    * top level does not reference specific instance or nodes
+  * instance level diag
+    * can be used to show different deplyments like development, staging, production etc
+* **Manifestation** is a relationship where an artifact is a physical realization of software component.
+![image](https://github.com/ronitwilson/system-design/assets/9934360/1ee333c2-b629-4911-8d62-5b422f1fb339)
+![image](https://github.com/ronitwilson/system-design/assets/9934360/39cc17be-053b-4061-81a0-2b3497e0b02c)
+
