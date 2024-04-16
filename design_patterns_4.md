@@ -58,3 +58,10 @@
 ![image](https://github.com/ronitwilson/system-design/assets/9934360/1ee333c2-b629-4911-8d62-5b422f1fb339)
 ![image](https://github.com/ronitwilson/system-design/assets/9934360/39cc17be-053b-4061-81a0-2b3497e0b02c)
 
+# UML Activity Diagram
+* helps understnd the flow of activity in the system, normally it creates or modifies the objs
+* First step would be to **identify the activities**
+* Identifiy the **conditions of the system's activities**
+![image](https://github.com/ronitwilson/system-design/assets/9934360/ad22476c-0192-4d96-b756-d2496fa9f724)
+
+* 
