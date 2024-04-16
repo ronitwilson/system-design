@@ -64,4 +64,6 @@
 * Identifiy the **conditions of the system's activities**
 ![image](https://github.com/ronitwilson/system-design/assets/9934360/ad22476c-0192-4d96-b756-d2496fa9f724)
 
-* 
+![image](https://github.com/ronitwilson/system-design/assets/9934360/f6de0318-4ebe-42be-bed0-77b4714cf65c)
+![image](https://github.com/ronitwilson/system-design/assets/9934360/f0d1b959-6027-4bcc-a8e1-67f8b94a2953)
+
