@@ -21,20 +21,20 @@
 * Two main componenents
   * Central Data
     * Component which stores and serve data
- * Data accessors
-  * that makes queries and transactions against the information stored
+  * Data accessors
+   * that makes queries and transactions against the information stored
 * Data accessors are sepertated from one another and communicate only through the data component
 * Data integrity and Data Persistence
- * Achived useing DBs
+  * Achived useing DBs
 * Charectors of data accessors
- *  share set of data while able to operate independently
- *  Data accessors need not interact with each other
- *  data accessor contains all the business rules required to perform its functions
+  *  share set of data while able to operate independently
+  *  Data accessors need not interact with each other
+  *  data accessor contains all the business rules required to perform its functions
 * advantages of data centric architecture over oops
- * Increased support of data intergrity, data backup, data restoration
- * easy to scale the data storage
- * reduce the need to  transfer the data a lot
+  * Increased support of data intergrity, data backup, data restoration
+  * easy to scale the data storage
+  * reduce the need to  transfer the data a lot
 * disadvantages
- * Heavily reliant on central data component
- * diffultt to change the existing data schema
- * Data accessors are dependent on what gets stored in the database. New data accessors need to build around the existing data schema
+  * Heavily reliant on central data component
+  * diffultt to change the existing data schema
+  * Data accessors are dependent on what gets stored in the database. New data accessors need to build around the existing data schema
