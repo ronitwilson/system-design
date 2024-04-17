@@ -19,8 +19,8 @@
 ## Repository Based Systems Data Centric software architecture
 * Databases
 * Two main componenents
- * Central Data
-  * Component which stores and serve data
+  * Central Data
+    * Component which stores and serve data
  * Data accessors
   * that makes queries and transactions against the information stored
 * Data accessors are sepertated from one another and communicate only through the data component
