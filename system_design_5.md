@@ -5,4 +5,4 @@
   * Encapsulation -> bundle data and functions
   * Decomposition -> break a whole into smaller part
   * Generalization -> factor out conceptual commonalities
-* 
+* Identify data and put them in classes wich is the abstract data type
