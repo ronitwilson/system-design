@@ -15,3 +15,7 @@
 ![image](https://github.com/ronitwilson/system-design/assets/9934360/2192fe8e-2b1a-4999-8b5d-97c6229837e9)
 ![image](https://github.com/ronitwilson/system-design/assets/9934360/764e3a91-c06b-4fa8-b464-b859dc7c2873)
 
+## Repository Based Systems Data Centric software architecture
+* Databases
+* Data integrity and Data Persistence
+* 
