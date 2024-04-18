@@ -54,4 +54,10 @@
     * But it is about trade offs coupling vs flexibility etc
 ![image](https://github.com/ronitwilson/system-design/assets/9934360/0e2bddc1-8ec0-472a-9e33-f403e6cb5e8a)
 
+## Client Server n-Tier 
+* client/server 2 tier architecture
+    * request response model
+    * Don't need to worry where the request comes from
+    * ![image](https://github.com/ronitwilson/system-design/assets/9934360/813c802e-a43d-4e2e-9413-0c21cc0f11f1)
+
 
