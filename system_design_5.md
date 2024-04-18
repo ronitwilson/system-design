@@ -38,3 +38,20 @@
   * Heavily reliant on central data component
   * diffultt to change the existing data schema
   * Data accessors are dependent on what gets stored in the database. New data accessors need to build around the existing data schema
+
+## Layered architecture
+* components in a layer only interact with components in adjacent layers
+* It allows for **separation of concerns**
+    * Many layered systems are split into “presentation,” “logic,” and “data” layers.
+    * I can think of the mvc architecture
+* Os of a computer is an example of layered system
+![image](https://github.com/ronitwilson/system-design/assets/9934360/3131fbd2-7845-418b-8e64-2da59a241cd2)
+* Disadvantages
+    * There is **overhead**
+    * A layer can talk to another only through the ajacent layer
+* There are variations possible
+    * make room for a top layer to talk to a lower one
+    * But it is about trade offs coupling vs flexibility etc
+![image](https://github.com/ronitwilson/system-design/assets/9934360/0e2bddc1-8ec0-472a-9e33-f403e6cb5e8a)
+
+
