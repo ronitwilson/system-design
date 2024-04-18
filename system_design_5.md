@@ -23,7 +23,7 @@
     * Component which stores and serve data
   * Data accessors
     * that makes queries and transactions against the information stored
-* Data accessors are sepertated from one another and communicate only through the data component
+* **Data accessors are sepertated from one another and communicate only through the data component**
 * Data integrity and Data Persistence
   * Achived useing DBs
 * Charectors of data accessors
