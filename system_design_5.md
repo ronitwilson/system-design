@@ -56,15 +56,20 @@
 
 ## Client Server n-Tier 
 * Normally each tier runs on a seperate machine
-# client/server 2 tier architecture
+### client/server 2 tier architecture
 * request response model
     * Don't need to worry where the request comes from
     * ![image](https://github.com/ronitwilson/system-design/assets/9934360/813c802e-a43d-4e2e-9413-0c21cc0f11f1)
     * can be scaled more easily
     * but server acts as a central point of failure
     * centralization of computing power and functionality
-# 3 tier architecture 
-* ![image](https://github.com/ronitwilson/system-design/assets/9934360/efae2046-dc82-4cbc-8ab3-7227dd9cded2)
+### 3 tier architecture 
+![image](https://github.com/ronitwilson/system-design/assets/9934360/efae2046-dc82-4cbc-8ab3-7227dd9cded2)
 
 
-
+# Interpreter Based systems
+* Users can write scripts macros, rules that access & compose the basic feature of system in new ways
+* Example a component called interpreter is built into the system
+    * eg Excel can do run time calulations
+* With interpreter end users can add functionality to system & extend existing functionality
+    * By composing pre existing function in a specific order to create something new
