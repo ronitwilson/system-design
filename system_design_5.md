@@ -73,3 +73,12 @@
     * eg Excel can do run time calulations
 * With interpreter end users can add functionality to system & extend existing functionality
     * By composing pre existing function in a specific order to create something new
+
+# State Transition system
+*  A state transition system is a concept used to describe the behavior of a system
+### Example of state transistio system
+![image](https://github.com/ronitwilson/system-design/assets/9934360/180dd56f-1421-43b0-8b79-43f1fdf2bfc7)
+### Uses
+* Helps determince when important system events/resources are used
+* Help understand how parallel process multithreading etc work
+* Help identify deadlocks
