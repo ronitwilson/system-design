@@ -1,4 +1,4 @@
-# 17-apr
+![image](https://github.com/ronitwilson/system-design/assets/9934360/e6466f5d-dea0-494b-b502-c6da105ff52d)# 17-apr
 ## Abstract Data types Use of Obect Oriented Programming
 * Recall Object oriented principles
   * Abstraction -> simplify a concept
@@ -82,3 +82,19 @@
 * Helps determince when important system events/resources are used
 * Help understand how parallel process multithreading etc work
 * Help identify deadlocks
+
+# Pipe and filter systems
+* Very much relateable to the **chain of responsibilty pattern**
+### Diagram
+![image](https://github.com/ronitwilson/system-design/assets/9934360/45134706-a6cc-42fe-91fd-1d28818c9084)
+
+### Advantages
+    * Loose and flexible coupling
+    * Filters can be treated as black boxes
+    * Reusability,Filters can be reused
+    
+### Disdvantages  
+    * Reduced performance
+    * Every filter must parse the input and then perform transformation and then send the data
+    * Filters may get overloaded with too much data
+    * not suitable for interactive applications as data transfers and transformations take time
