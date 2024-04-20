@@ -119,3 +119,19 @@
   * In the event based system, they only create events and handle events
 * Note we cant modify a published message
   * Solution would be to have a correction message
+
+# Process Control Systems
+* There are feedback loops
+* 4 main parts
+    * Sensor
+    * controller
+    * actuator
+    * process
+* There are closed loop systems
+    * The simple one with no external input
+* Foreward loop systems
+    * The closed loop + external input at the controller logic
+### images
+![image](https://github.com/ronitwilson/system-design/assets/9934360/7cfba647-c8fc-4c08-bde0-f848d737ef3a)
+![image](https://github.com/ronitwilson/system-design/assets/9934360/ad8db9e7-ccfa-42de-a328-01080922cb6b)
+
