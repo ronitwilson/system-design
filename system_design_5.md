@@ -98,3 +98,24 @@
     * Every filter must parse the input and then perform transformation and then send the data
     * Filters may get overloaded with too much data
     * not suitable for interactive applications as data transfers and transformations take time
+
+
+# Implicit Invocation systems
+* functions are not in direct communication with each other
+## Event Based
+* **Event bus** and **Event generators** and **Event consumers**
+* can be related to observer event pattern
+* generators don't need to know about the consumers
+* consumers can be **triggered asynchronously**
+* Need to **handle race conditions**
+  * Use of a Semaphore (use of a key)
+* We can predict the **order of the events**
+### example event based system  
+![image](https://github.com/ronitwilson/system-design/assets/9934360/7a7fcced-0f5d-4ea4-99ae-657fd8e42251)
+
+### Publish subscribe system are also very similar
+* This is like a subsystem of event based system
+* Note that the components only publish and subscirbe
+  * In the event based system, they only create events and handle events
+* Note we cant modify a published message
+  * Solution would be to have a correction message
