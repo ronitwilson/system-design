@@ -64,4 +64,15 @@
         * have one team for the data backend,
         * one team for the application logic layer
         *  one for the presentation tier.
+## Product Line and Product families
+### Product lines have several advantages
+* product lines help reduce development cost per product
+* similar user experience across products in the product line
+* reduce time to market of the newer producets in the product line
+* having only less products in product line is not a good idea
+#### Product line flow chart 
+![image](https://github.com/ronitwilson/system-design/assets/9934360/98d36090-a432-42b9-ba63-60a4b9a02ba3)
 
+### Teams in product line
+* **Domain engineering** focus on the commanlities and variations (infrastructre for the pdl)
+*  **Application engineering** focus on integrating the commanalities and variations n make the product
