@@ -76,3 +76,11 @@
 ### Teams in product line
 * **Domain engineering** focus on the commanlities and variations (infrastructre for the pdl)
 *  **Application engineering** focus on integrating the commanalities and variations n make the product
+
+### Reference architecture
+* be designed with needs to all products in the product line
+* have option to include vairation for different products
+* Have 3 general techs in a system
+    * adaptation technique -> adapt some components for each product
+    * replacement technique -> replace some component for each product
+    * extension technique -> extend some component for each product
