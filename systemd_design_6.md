@@ -56,3 +56,12 @@
 #### Re-analuze the arch approaches
 #### Present the result
 
+# Relationship to Org structure 7 may
+## Conway's Law
+* Software  will tend to take a form that is congruous to the organization that produced it
+    * knowledge of Conway’s Law should result in planning development teams around the desired architecture
+    * For example, if you are building a web application using the n-Tier architecture, you could
+        * have one team for the data backend,
+        * one team for the application logic layer
+        *  one for the presentation tier.
+
