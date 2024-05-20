@@ -1,5 +1,6 @@
 # Service oriented Architecture
 * We can make use of other's laready built services
+* The flow is asyncchronus
 
 ## Two main classification
 ### Services on Internet
