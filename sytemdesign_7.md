@@ -55,4 +55,23 @@
 ### Server stub
   * invoke the desired procedure 
 
-## Interface Headers
+### Interface Headers
+* Tells the client what procedures are remotely accessible
+* TellsThe actual procedure that is being invoked on server
+* Tells the procedure call that is invoked b broadcaset\
+
+### Steps during the rpc call
+  * Client component invokes the procedure
+  * Client stub marshalls the parameters
+  * Message is sent to server
+  * The server stub receives and unmarshalls the message
+  * The server executes the procedure
+  * The result is sent back to server stub
+  * the result is given to client stub
+  * the client stub unmarshall and process the results
+
+## Object Brokers
+RPCs with the class/object based approach is called  Object brokers
+
+#### CORBA 
+The most common object broker architecture is the **Common Object Request Broker Architecture (CORBA)**
