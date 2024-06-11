@@ -39,3 +39,20 @@
 ### example request response
 ![image](https://github.com/ronitwilson/system-design/assets/9934360/7543fc98-1e53-4eaf-8a7c-b4d5724f4e5e)
 
+## RPC
+  * The client and server are on different machine/ different virtual instance of same machine
+  * address space between client and server is different
+
+### IDL - Interface language definiton
+  * IT is the specification for remote procedure calls
+#### example architecture
+![image](https://github.com/ronitwilson/system-design/assets/61230302/41803a97-a8eb-45da-ab9f-c5a44ec326ca)
+### Client stub
+  * establish the connection
+  * Format the data to standardized structure
+  * Send the remote procedure call
+  * reveive the server stub response
+### Server stub
+  * invoke the desired procedure 
+
+## Interface Headers
