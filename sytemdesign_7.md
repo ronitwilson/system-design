@@ -75,3 +75,14 @@ RPCs with the class/object based approach is called  Object brokers
 
 #### CORBA 
 The most common object broker architecture is the **Common Object Request Broker Architecture (CORBA)**
+
+#### Object request broker
+  * Provides object interoperability.
+  * A obj declares its interfaces before it can be accessed by client or sever through the broker
+  * Broker is responsible for marshalling and unmarshalling
+
+#### CORBA services
+  * services provided by the middleware to objects 
+
+#### CORBA facilities
+  * high level function as document management
