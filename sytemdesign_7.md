@@ -86,3 +86,15 @@ The most common object broker architecture is the **Common Object Request Broker
 
 #### CORBA facilities
   * high level function as document management
+
+#### CORBA architecture 
+Insert picture here..
+
+#### CORBA IDL
+SImilar the IDL at the RPC , but supports inheritance and polymorphism.
+
+#### Static and Dynamic Interoperability
+  * **Static binding** occurs when the client stub is created. The service that is used for static binding to a broker is handled by the IDL. **When the IDL compiler generates the stub, it will be statically bound to the broker** that the IDL compiler belongs to.
+  * **Dynamic binding **is also specified in CORBA. It allows clients to dynamically search for new objects using service discovery
+
+#### CORBA facilities
