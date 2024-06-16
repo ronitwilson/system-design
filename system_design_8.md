@@ -6,4 +6,9 @@
       *  Is the data secure
       *  Complexity
   *  Better way than EAI -> web services
-## SOAP
+### SOAP
+    * Use of XML for msg transfer
+### WSDL ->  Web Services Description Language.
+### UDDI
+
+## The above there are part of first gen Web services
