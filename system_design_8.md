@@ -8,6 +8,7 @@
   *  Better way than EAI -> web services
 ### SOAP
     * Use of XML for msg transfer
+    
 ### WSDL ->  Web Services Description Language.
 ### UDDI
 
