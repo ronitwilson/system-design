@@ -13,3 +13,11 @@
 ### UDDI
 
 ## The above there are part of first gen Web services
+
+## SOAP 
+It is a defined format in xml to invoke an operation
+image a 1:57
+
+### types of SOAP
+  * Document type soap -> somthing like sending the feild of a form
+  * RPC SOAP -> call a remote service
