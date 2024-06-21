@@ -22,3 +22,17 @@ It is a defined format in xml to invoke an operation
 ### types of SOAP
   * Document type soap -> somthing like sending the feild of a form
   * RPC SOAP -> call a remote service
+
+### SOAP working
+SOAP messages are sent over transport protocol.  example HTTP 
+
+##### image 
+![image](https://github.com/ronitwilson/system-design/assets/9934360/9123d819-eb78-43b2-811f-6896f98289e3)
+
+### SOAP Message patterns
+    * Request-response and a variant called Solicit-response
+    * One-way
+    * Notification
+
+### Disadvantage 
+Main disadvantage overhead with xml headings etc
