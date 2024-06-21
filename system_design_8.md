@@ -36,3 +36,14 @@ SOAP messages are sent over transport protocol.  example HTTP
 
 ### Disadvantage 
 Main disadvantage overhead with xml headings etc
+
+
+## WSDL
+Web Service Description Language (WSDL) is a standard used to describe the interface of a web service. This helps SOAP messages find services, and understand how to interact with services.
+
+  * WSDL descriptions are machine-readable
+  * This allows service descripter to generate machine readable code to interface with service automaitcally (binding)
+
+ ### WSDL 2.0 parts
+   *  Types -> discribe the datatype
+   *  Interfaces -> what operation can be performed
