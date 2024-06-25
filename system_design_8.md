@@ -53,3 +53,16 @@ Web Service Description Language (WSDL) is a standard used to describe the inter
 Web services need to be published and discovered. Developers need to be able to find services to build apps, and there needs to be a way to get people to use these created services.
 The first framework for publishing was **Universal Description, Discovery, and Integration (UDDI)**
 
+### UDDI General working
+* UDDI allows service providers to publish their services to a UDDI registry.
+* Once they are published, potential service requesters can search the registry and discover the service they need.
+* Once the service that the service requester wants to use is found, the service requester can bind to it using the WSDL description
+* Once bind is done the service requester can invoke
+
+#### UDDI image
+![image](https://github.com/ronitwilson/system-design/assets/9934360/22e3e3c1-15fe-409d-b5fd-8bb3fa222ba9)
+
+#### UDDI Publishing
+* White pages -> overview business name
+* Yello pages -> more info contains info about service
+* Green pages -> contains technical details
