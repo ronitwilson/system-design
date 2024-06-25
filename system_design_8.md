@@ -47,3 +47,9 @@ Web Service Description Language (WSDL) is a standard used to describe the inter
  ### WSDL 2.0 parts
    *  Types -> discribe the datatype
    *  Interfaces -> what operation can be performed
+
+## **Service Publication and Discovery (UDDI)**
+
+Web services need to be published and discovered. Developers need to be able to find services to build apps, and there needs to be a way to get people to use these created services.
+The first framework for publishing was **Universal Description, Discovery, and Integration (UDDI)**
+
