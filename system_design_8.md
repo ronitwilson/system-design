@@ -74,3 +74,28 @@ Composing services involves invoking services in a certain order and handling ex
     * Lower-level details of inter-service communication are dealt with by protocols such as SOAP and WSDL
 ### Cordination
 Coordination is when a process coordinates the activities of two or more services.
+
+
+## Rest 
+* URI
+* Using HTTP header to specify format
+  *   Content type/accept
+* Using Query in URL
+* Using Ofset and filtering in URL
+* Versioning APIs
+* HTTP status codes
+
+### Microservices
+Service oriented architecture
+#### Advantages
+* Each service can be autonomous
+* Easy to scal some parts
+* Services can be updated seperately
+#### Disadvantages
+* Complex
+* the limitation of being a distributed system
+    * Some centralized management of all microservices will be required
+    * Database consistency needs to be maintained
+    * Testing is complex
+* Crucial service failing may be a bottlenect
+* overhead in services communicating to one another
