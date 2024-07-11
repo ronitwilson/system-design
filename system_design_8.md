@@ -66,3 +66,11 @@ The first framework for publishing was **Universal Description, Discovery, and I
 * White pages -> overview business name
 * Yello pages -> more info contains info about service
 * Green pages -> contains technical details
+
+## Service Composition BPEL - Business Process Execution Language (BPEL)
+Composing services involves invoking services in a certain order and handling exceptions that may arise. 
+* Basic services often have low-level, basic functionality.
+* This functionality can be combined into higher level functionality with Business Process Execution Language (BPEL)
+    * Lower-level details of inter-service communication are dealt with by protocols such as SOAP and WSDL
+### Cordination
+Coordination is when a process coordinates the activities of two or more services.
